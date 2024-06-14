@@ -1,47 +1,30 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import './quest_one.css';
+import './quest_three.css';
 
 const riddles = [
   {
-    question: `In a sacred place where echoes sing,
-Count the voices from above that ring.
-Then flip the number, a simple fix,
-And tell me, what is the digit?`,
-    answer: 'nine',
+    question: `Count number of "YOU" in mirrors and divide it by 3`,
+    answer: 'six',
   },
   {
-    question: `To find the key, a date you must see,
-Today's the clue, so mark it with glee.
-From the full date, a digit to take,
-It's the very first number, for your answer's sake.`,
-    answer: '1', // Assuming today's date starts with '1'
+    question: `Go to Number 8 and find the number over there, it is the shape of the biggest noun, you are standing infront of `,
+    answer: '0', // Assuming today's date starts with '1'
   },
   {
-    question: `I'm a gleaming marvel, reaching for the sky,
-Reflecting light with a sparkle, oh so high.
-Where dreams ascend, in a tower tall,
-My walls are glass, standing proud and all.`,
-    answer: 'crystal',
-  },
-  {
-    question: `By the shimmering lake, where dreams take flight,
-Glowing orbs dance in the gentle night.
-Count the lights, each one a gleaming star,
-Tell me now, how many shine from afar?
-(Mirror the second number and subtract the result by 1)`,
+    question: `I can build a tower, strong and tall,
+Or stop your path with a sudden wall.
+A solid piece, both square and stout,
+What am I, without a doubt? give my count`,
     answer: '7',
   },
   {
-    question: `I'm a large insect, majestic and free,
-My wings are a canvas, a deep blue sea.
-With grace in my flight, I dance in the sky,
-A butterfly's beauty, soaring high.`,
-    answer: 'butterfly',
+    question: `Words in my favorite song?`,
+    answer: 'three',
   },
 ];
 
-const QuestOne = () => {
+const QuestThree = () => {
   const [currentRiddleIndex, setCurrentRiddleIndex] = useState(0);
   const [inputValue, setInputValue] = useState('');
   const navigate = useNavigate();
@@ -89,4 +72,4 @@ const QuestOne = () => {
   );
 };
 
-export default QuestOne;
+export default QuestThree;
