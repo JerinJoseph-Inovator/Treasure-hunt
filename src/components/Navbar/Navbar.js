@@ -1,12 +1,28 @@
-// src/components/navbar/Navbar.js
 import React, { useState } from 'react';
 import './Navbar.css';
 import MapIcon from './Map_Icon.png';
 import map from './map.png';
-import IIcon from './IIcon.png'; // Assuming you have an I_Icon.png file for the new button
+import IIcon from './IIcon.png';
+
+const infoTexts = [
+  "Patterns & color are crucial in game never miss a pattern never miss a color",
+  "Every Detail be it in words or letters can be converted. Conversion is the play",
+  "All the digits are in your hand, you need to figure out which one you need and which one you should leave",
+  "Letters are crucial in this treasure hunt",
+  "Sometimes Math’s Helps",
+  "Answer can help you find other answers. One can lead to other.",
+  "Remember past, coz past holds lot of answers  ---- 6 Mirror",
+  "Counting is important",
+  "Sometimes being clueless is the answer",
+  "Mathematics is the key to everything at times",
+  "Reminder: Counting is important",
+  "Take two steps back always to get to the core of the solution",
+  "Reminder:- Patterns & color are crucial in game never miss a pattern never miss a color."
+];
 
 const Navbar = () => {
   const [showMap, setShowMap] = useState(false);
+  const [showInfo, setShowInfo] = useState(false);
 
   const handleMapIconClick = () => {
     setShowMap(!showMap);
@@ -17,7 +33,7 @@ const Navbar = () => {
   };
 
   const handleIIconClick = () => {
-    // Handle the click event for the I Icon button
+    setShowInfo(!showInfo);
   };
 
   return (
@@ -51,6 +67,15 @@ const Navbar = () => {
         <div className="overlay" onClick={handleMapIconClick}>
           <div className="map-container">
             <img src={map} alt="Map" className="map-image" />
+          </div>
+        </div>
+      )}
+      {showInfo && (
+        <div className="overlay" onClick={handleIIconClick}>
+          <div className="info-container">
+            {infoTexts.map((text, index) => (
+              <p key={index} className="info-text">{text}</p>
+            ))}
           </div>
         </div>
       )}
