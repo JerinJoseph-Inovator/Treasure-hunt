@@ -11,7 +11,7 @@ const infoTexts = [
   "Letters are crucial in this treasure hunt",
   "Sometimes Math’s Helps",
   "Answer can help you find other answers. One can lead to other.",
-  "Remember past, coz past holds lot of answers  ---- 6 Mirror",
+  "Remember past, coz past holds lot of answers ",
   "Counting is important",
   "Sometimes being clueless is the answer",
   "Mathematics is the key to everything at times",

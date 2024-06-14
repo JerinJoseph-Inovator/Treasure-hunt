@@ -14,7 +14,7 @@ function App() {
         <Navbar />
         <header className="App-header">
         <Routes>
-          <Route path="/" element={<Start />} />
+          <Route path="/Start" element={<Start />} />
           <Route path="/quest_one" element={<QuestOne />} />
           <Route path="/quest_two" element={<QuestTwo />} /> {/* Add route for QuestTwo */}
           <Route path="/quest_three" element={<QuestThree />} /> {/* Add route for QuestTwo */}
