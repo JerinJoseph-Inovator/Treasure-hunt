@@ -8,9 +8,12 @@ import QuestOne from './components/quest_one/quest_one';
 import QuestTwo from './components/quest_two/quest_two';
 import QuestThree from './components/quest_three/quest_three';
 
+
 function App() {
+  const basename = process.env.NODE_ENV === 'production' ? '/Treasure-hunt' : '/';
+
   return (
-    <Router>
+    <Router basename={basename}>
       <div className="App">
         <Navbar />
         <header className="App-header">
@@ -20,6 +23,7 @@ function App() {
             <Route path="/quest_one" element={<QuestOne />} />
             <Route path="/quest_two" element={<QuestTwo />} />
             <Route path="/quest_three" element={<QuestThree />} />
+
           </Routes>
         </header>
       </div>
