@@ -34,7 +34,7 @@ body {
   
   .content {
     margin: 20px;
-    transform: translateY(-40px);
+    transform: translateY(-5px);
     background-color: rgba(0, 0, 0, 0.5); /* Optional: Add a semi-transparent background for better text readability */
     padding: 20px;
     border-radius: 10px;

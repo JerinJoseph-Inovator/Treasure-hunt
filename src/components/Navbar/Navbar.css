@@ -3,23 +3,31 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #282c34;
-    padding: 1rem;
+    padding: 10px 20px;
+    background-color: #333;
     color: white;
   }
   
-  .navbar-left h1 {
-    margin: 0;
-  }
-  
-  .navbar-right {
+  .navbar-left {
     display: flex;
     align-items: center;
   }
   
-  .map-icon {
-    width: 36px; /* Increased width */
-    height: 36px; /* Increased height */
+  .navbar-left h1 {
+    margin: 0;
+    font-size: 1.5em;
+  }
+  
+  .navbar-left .i-icon {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    margin-right: 10px; /* Adjust the margin as needed */
+  }
+  
+  .navbar-right .map-icon {
+    width: 40px;
+    height: 40px;
     cursor: pointer;
   }
   
@@ -29,21 +37,21 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.5); /* Optional: Add a semi-transparent background */
     display: flex;
     justify-content: center;
     align-items: center;
+    z-index: 1000; /* Ensure the overlay is above other elements */
   }
   
   .map-container {
     position: relative;
-    width: 80%;
-    max-width: 600px;
   }
   
   .map-image {
-    width: 100%;
-    height: auto;
-    border: 2px solid white;
+    max-width: 90%;
+    max-height: 90%;
+    border: 2px solid #fff;
+    border-radius: 10px;
   }
   
