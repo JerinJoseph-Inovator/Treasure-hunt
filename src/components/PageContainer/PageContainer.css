@@ -1,0 +1,14 @@
+/* src/components/PageContainer.css */
+.page-container {
+    background-color: #000000c3; /* Change to your desired background color */
+    color: #efedede9; /* Change to your desired text color */
+    min-height: 100vh; /* Ensure it covers the full viewport height */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif; /* Ensure this matches your Google Font */
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  

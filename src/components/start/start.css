@@ -1,0 +1,62 @@
+/* src/components/start.css */
+.centric {
+    color: gold;
+    font-family: "Tiny5", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    border: 2px solid goldenrod;
+    padding: 10px;
+    box-shadow: 0 0 10px goldenrod, 0 0 20px goldenrod, 0 0 30px goldenrod;
+    border-radius: 8px;
+    text-align: center; /* Center the text */
+  }
+  
+  .content {
+    margin: 20px;
+  }
+  
+  .button-group {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Space between buttons */
+    margin-top: 20px;
+  }
+  
+  .jungle-button {
+    background-color: #228B22; /* Jungle green color */
+    color: white;
+    border: 2px solid #006400; /* Dark green border */
+    padding: 10px 20px;
+    font-size: 1.2em;
+    font-family: 'Tiny5', sans-serif;
+    font-weight: 400;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .jungle-button:hover {
+    background-color: #006400; /* Dark green on hover */
+    box-shadow: 0 0 10px #228B22, 0 0 20px #228B22; /* Glowing effect */
+  }
+  
+  .yes-button {
+    background-color: #32CD32; /* Lime green */
+    border: 2px solid #228B22; /* Jungle green border */
+  }
+  
+  .yes-button:hover {
+    background-color: #228B22; /* Jungle green on hover */
+    box-shadow: 0 0 10px #32CD32, 0 0 20px #32CD32; /* Lime green glow */
+  }
+  
+  .no-button {
+    background-color: #B22222; /* Firebrick red */
+    border: 2px solid #8B0000; /* Dark red border */
+  }
+  
+  .no-button:hover {
+    background-color: #8B0000; /* Dark red on hover */
+    box-shadow: 0 0 10px #B22222, 0 0 20px #B22222; /* Firebrick red glow */
+  }
+  

@@ -1,0 +1,49 @@
+/* src/components/navbar/Navbar.css */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #282c34;
+    padding: 1rem;
+    color: white;
+  }
+  
+  .navbar-left h1 {
+    margin: 0;
+  }
+  
+  .navbar-right {
+    display: flex;
+    align-items: center;
+  }
+  
+  .map-icon {
+    width: 36px; /* Increased width */
+    height: 36px; /* Increased height */
+    cursor: pointer;
+  }
+  
+  .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .map-container {
+    position: relative;
+    width: 80%;
+    max-width: 600px;
+  }
+  
+  .map-image {
+    width: 100%;
+    height: auto;
+    border: 2px solid white;
+  }
+  
