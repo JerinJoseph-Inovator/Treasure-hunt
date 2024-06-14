@@ -1,6 +1,8 @@
 // src/components/navbar/Navbar.js
 import React, { useState } from 'react';
 import './Navbar.css';
+import Map_Icon from './Map_Icon.png';
+import map from './map.png';
 
 const Navbar = () => {
   const [showMap, setShowMap] = useState(false);
@@ -17,7 +19,7 @@ const Navbar = () => {
         </div>
         <div className="navbar-right">
           <img 
-            src={`${process.env.PUBLIC_URL}/map_icon.png`} 
+            src= {Map_Icon} 
             alt="Map Icon" 
             className="map-icon" 
             onClick={handleMapIconClick} 
@@ -27,7 +29,7 @@ const Navbar = () => {
       {showMap && (
         <div className="overlay">
           <div className="map-container">
-            <img src={`${process.env.PUBLIC_URL}/Map.png`} alt="Map" className="map-image" />
+            <img src={map} alt="Map" className="map-image" />
           </div>
         </div>
       )}
