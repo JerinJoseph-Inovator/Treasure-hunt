@@ -53,7 +53,7 @@ const QuestThree = () => {
   const numberOfLetters = currentRiddle.answer.length;
 
   return (
-    <div className="riddle-page">
+    <div className="quest_three">
       <h1>Riddle</h1>
       <p>{currentRiddle.question}</p>
       <div className="answer-input">
