@@ -1,7 +1,4 @@
-/* src/components/RiddlePage/RiddlePage.css */
-
-
-
+/* src/components/quest_four/quest_four.css */
 
 .riddle-page {
     display: flex;
@@ -9,13 +6,13 @@
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background-image: url('./pageThree.png'); /* Path to your background image */
+    background-image: url('./quest_four.png'); /* Path to your background image */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-color: #f4f4f4;
     padding: 20px;
-    }
+  }
   
   .riddle-page h1 {
     font-size: 2em;

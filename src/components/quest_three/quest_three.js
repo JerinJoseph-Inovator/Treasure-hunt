@@ -1,3 +1,4 @@
+// src/components/quest_three/QuestThree.js
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import './quest_three.css';
@@ -8,8 +9,8 @@ const riddles = [
     answer: 'six',
   },
   {
-    question: `Go to Number 8 and find the number over there, it is the shape of the biggest noun, you are standing infront of `,
-    answer: '0', // Assuming today's date starts with '1'
+    question: `Go to Number 8 and find the number over there, it is the shape of the biggest noun, you are standing infront of`,
+    answer: '0',
   },
   {
     question: `I can build a tower, strong and tall,
@@ -41,7 +42,7 @@ const QuestThree = () => {
         setInputValue('');
       } else {
         alert('You have completed all the riddles!');
-        navigate('/quest_two'); // Navigate to QuestTwo
+        navigate('/quest_four'); // Navigate to QuestFour
       }
     } else {
       alert('Try again!');

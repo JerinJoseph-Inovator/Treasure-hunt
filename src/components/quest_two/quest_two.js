@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { useNavigate } from 'react-router-dom';
 import './quest_two.css';
 
 const QuestTwo = () => {
@@ -7,6 +8,7 @@ const QuestTwo = () => {
   const [showHint, setShowHint] = useState(false);
   const [inputValue, setInputValue] = useState('');
   const [isCorrect, setIsCorrect] = useState(false);
+  const navigate = useNavigate();
 
   useEffect(() => {
     if (isPlaying) {
@@ -42,6 +44,7 @@ const QuestTwo = () => {
     if (inputValue.toLowerCase() === correctAnswer) {
       setIsCorrect(true);
       alert('Correct answer!');
+      navigate('/quest_three'); // Navigate to QuestThree
     } else {
       setIsCorrect(false);
       alert('Try again!');

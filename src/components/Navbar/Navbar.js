@@ -5,19 +5,19 @@ import map from './map.png';
 import IIcon from './IIcon.png';
 
 const infoTexts = [
-  "Patterns & color are crucial in game never miss a pattern never miss a color",
-  "Every Detail be it in words or letters can be converted. Conversion is the play",
-  "All the digits are in your hand, you need to figure out which one you need and which one you should leave",
-  "Letters are crucial in this treasure hunt",
-  "Sometimes Math’s Helps",
-  "Answer can help you find other answers. One can lead to other.",
-  "Remember past, coz past holds lot of answers ",
-  "Counting is important",
-  "Sometimes being clueless is the answer",
-  "Mathematics is the key to everything at times",
-  "Reminder: Counting is important",
-  "Take two steps back always to get to the core of the solution",
-  "Reminder:- Patterns & color are crucial in game never miss a pattern never miss a color."
+  "1) Patterns & color are crucial in game never miss a pattern never miss a color",
+  "2) Every Detail be it in words or letters can be converted. Conversion is the play",
+  "3) All the digits are in your hand, you need to figure out which one you need and which one you should leave",
+  "4) Letters are crucial in this treasure hunt",
+  "5) Sometimes Math’s Helps",
+  "6) Answer can help you find other answers. One can lead to other.",
+  "7) Remember past, coz past holds lot of answers ",
+  "8) Counting is important",
+  "9) Sometimes being clueless is the answer",
+  "10) Mathematics is the key to everything at times",
+  "11) Reminder: Counting is important",
+  "12) Take two steps back always to get to the core of the solution",
+  "13) Reminder:- Patterns & color are crucial in game never miss a pattern never miss a color."
 ];
 
 const Navbar = () => {
