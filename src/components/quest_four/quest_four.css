@@ -6,12 +6,13 @@
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background-image: url('./quest_four.png'); /* Path to your background image */
+    background-image: url('quest_four.png'); /* Path to your background image */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-color: #f4f4f4;
     padding: 20px;
+    position: relative;
   }
   
   .riddle-page h1 {
@@ -55,5 +56,37 @@
   .jungle-button:hover {
     background-color: #006400; /* Dark green on hover */
     box-shadow: 0 0 10px #228B22, 0 0 20px #228B22; /* Glowing effect */
+  }
+  
+  .key {
+    position: absolute;
+    width: 30px; /* Adjust size as needed */
+    height: 30px;
+    bottom: 40px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    visibility: hidden;
+  }
+  
+  .key.visible {
+    visibility: visible;
+  }
+  
+  .locker {
+    position: absolute;
+    bottom: 10px; /* Adjust positioning as needed */
+    left: 31%; /* Adjust positioning as needed */
+    transform: translateX(-50%); /* Offset to truly center the element */
+    transform: translateY(20%); 
+    width: 70px; /* Adjust size as needed */
+    height: 50px;
+    cursor: pointer;
+    padding: 0px;
+  }
+  
+  .locker-message {
+    font-size: 1.2em;
+    color: #228B22;
+    margin-top: 20px;
   }
   
