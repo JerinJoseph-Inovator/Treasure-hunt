@@ -1,23 +1,25 @@
 {
   "files": {
-    "main.css": "/Treasure-hunt/static/css/main.38914034.css",
-    "main.js": "/Treasure-hunt/static/js/main.8ae063d1.js",
+    "main.css": "/Treasure-hunt/static/css/main.11508b8a.css",
+    "main.js": "/Treasure-hunt/static/js/main.b44b8d78.js",
     "static/js/453.ed3810f9.chunk.js": "/Treasure-hunt/static/js/453.ed3810f9.chunk.js",
     "static/media/map.png": "/Treasure-hunt/static/media/map.e8874a53855c94ba6ccf.png",
     "static/media/Map_Icon.png": "/Treasure-hunt/static/media/Map_Icon.0329d6dfd44996be19e4.png",
     "static/media/pageBG.png": "/Treasure-hunt/static/media/pageBG.915a6f83d2205d2b93dd.png",
     "static/media/pageThree.png": "/Treasure-hunt/static/media/pageThree.915a6f83d2205d2b93dd.png",
     "static/media/Page.png": "/Treasure-hunt/static/media/Page.5ebd3e08e9e059ff3f16.png",
+    "static/media/chest.png": "/Treasure-hunt/static/media/chest.903f5166a7b94830e58d.png",
     "static/media/quest_one.png": "/Treasure-hunt/static/media/quest_one.6e47b128f6bdb6dc3330.png",
     "static/media/quest_four.png": "/Treasure-hunt/static/media/quest_four.ee3ca1b80ed9e005c545.png",
+    "static/media/key.png": "/Treasure-hunt/static/media/key.c3c8e8a985a910235fe9.png",
     "static/media/morse.mp3": "/Treasure-hunt/static/media/morse.bf5cc3b51241c9bfd910.mp3",
     "index.html": "/Treasure-hunt/index.html",
-    "main.38914034.css.map": "/Treasure-hunt/static/css/main.38914034.css.map",
-    "main.8ae063d1.js.map": "/Treasure-hunt/static/js/main.8ae063d1.js.map",
+    "main.11508b8a.css.map": "/Treasure-hunt/static/css/main.11508b8a.css.map",
+    "main.b44b8d78.js.map": "/Treasure-hunt/static/js/main.b44b8d78.js.map",
     "453.ed3810f9.chunk.js.map": "/Treasure-hunt/static/js/453.ed3810f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.38914034.css",
-    "static/js/main.8ae063d1.js"
+    "static/css/main.11508b8a.css",
+    "static/js/main.b44b8d78.js"
   ]
 }
