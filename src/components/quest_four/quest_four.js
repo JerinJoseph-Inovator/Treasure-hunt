@@ -1,5 +1,4 @@
 import React, { useState, useRef } from 'react';
-import { useNavigate } from 'react-router-dom';
 import './quest_four.css';
 import keyImage from './key.png'; // Adjust the path as needed
 import chestImage from './chest.png'; // Adjust the path as needed
@@ -17,7 +16,6 @@ const QuestFour = () => {
   const [keyPosition, setKeyPosition] = useState({ x: 0, y: 0 });
   const keyRef = useRef(null);
   const lockerRef = useRef(null);
-  const navigate = useNavigate();
 
   const handleChange = (e) => {
     setInputValue(e.target.value);
@@ -85,6 +83,12 @@ const QuestFour = () => {
     }
   };
 
+  const copyToClipboard = () => {
+    navigator.clipboard.writeText('https://your-link-here.com').then(() => {
+      alert('Link copied to clipboard!');
+    });
+  };
+
   return (
     <div className="riddle-page">
       <h1>Final Riddle</h1>
@@ -120,9 +124,11 @@ const QuestFour = () => {
         className="locker"
       />
       {isLockerOpen && (
-        <button onClick={() => navigate('/')} className="jungle-button">
-          Go Home
-        </button>
+        <div className="link-container">
+          <button onClick={copyToClipboard} className="jungle-button">
+            Copy Link
+          </button>
+        </div>
       )}
     </div>
   );
