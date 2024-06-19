@@ -84,7 +84,7 @@ const QuestFour = () => {
   };
 
   const copyToClipboard = () => {
-    navigator.clipboard.writeText('https://your-link-here.com').then(() => {
+    navigator.clipboard.writeText('https://drive.google.com/drive/folders/1PUCtd_Ac1MF9yTtyVbJj_srdzfgpzNLl?usp=drive_link').then(() => {
       alert('Link copied to clipboard!');
     });
   };
